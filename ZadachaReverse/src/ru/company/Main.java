@@ -35,19 +35,19 @@ public class Main {
 
 
                 for (int i = 0; i < N; i++) {
-                    array[i] = scanner.nextInt(); // просим ввести числа для массива
+                    array[i] = scanner.nextInt(); // создаём числа для массива
                 }
 
-                if ((N%2) ==0) { // первое условие если N нечетное
-                   // for (int i = 0; i < N; i++)
+                if ((N%2) ==0) { // первое условие если N четное
+                  
                     for (int i = array.length-1; i >= 0; i--)
                         System.out.println(array[i]);
 
 
-                } else // условие если N четное
+                } else // условие если N нечетное
                     {
                         for (int i = 0; i < N; i++){
-                       // for (int i = array.length-1; i >= 0; i--) {
+                       
                             System.out.println(array[i]);
                         }
                     }
