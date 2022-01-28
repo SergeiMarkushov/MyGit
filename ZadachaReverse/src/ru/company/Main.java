@@ -27,24 +27,24 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Scanner scanner = new Scanner(System.in); // включаем сканнер
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number more then 0 ");
-        int N = scanner.nextInt(); // вводится целое число N
+        int N = scanner.nextInt();
         System.out.println("Enter the numbers " + N + " times");
         int[] array = new int[N];
 
 
                 for (int i = 0; i < N; i++) {
-                    array[i] = scanner.nextInt(); // создаём числа для массива
+                    array[i] = scanner.nextInt();
                 }
 
-                if ((N%2) ==0) { // первое условие если N четное
+                if ((N%2) ==0) {
                   
                     for (int i = array.length-1; i >= 0; i--)
                         System.out.println(array[i]);
 
 
-                } else // условие если N нечетное
+                } else
                     {
                         for (int i = 0; i < N; i++){
                        
