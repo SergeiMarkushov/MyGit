@@ -1,1 +1,1 @@
-MyGit
+Some exercises 
